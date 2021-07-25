@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:form="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Bun venit In lumea Raliurilor - Eu Theodor sunt pasionat de viteza masini si motociclete</p>
+<form:form method="POST" action="/product/insertProduct" inputmode="product">
+    <label for="codLabel"> Cod Car :</label> <br>
+    <input type="text" id="codLabel" name="codLabel"><br>
+    <label for="numeLabel"> Nume Rally Car :</label> <br>
+    <input type="text" id="numeLabel" name="numeLabel"><br>
+    <label for="descriere"> Description :</label> <br>
+    <input type="text" id="descriere" name="descriere"><br>
+    <label for="stock"> How Many :</label> <br>
+    <input type="number" id="stock" name="stock"><br>
+    <label for="price"> Price :</label> <br>
+    <input type="number" id="price" name="price"><br>
+    <button onclick="getData"> Ok! </button>
+</form:form>
+
+</body>
+</html>
